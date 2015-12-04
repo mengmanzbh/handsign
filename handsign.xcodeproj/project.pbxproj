@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5F878AC1C112DDD00C8E821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F878AB1C112DDD00C8E821 /* main.m */; };
+		D5F878AF1C112DDD00C8E821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F878AE1C112DDD00C8E821 /* AppDelegate.m */; };
+		D5F878B21C112DDD00C8E821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F878B11C112DDD00C8E821 /* ViewController.m */; };
+		D5F878B51C112DDD00C8E821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F878B31C112DDD00C8E821 /* Main.storyboard */; };
+		D5F878B71C112DDD00C8E821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F878B61C112DDD00C8E821 /* Assets.xcassets */; };
+		D5F878BA1C112DDD00C8E821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F878B81C112DDD00C8E821 /* LaunchScreen.storyboard */; };
+		D5F878C51C112DDD00C8E821 /* handsignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F878C41C112DDD00C8E821 /* handsignTests.m */; };
+		D5F878D01C112DDD00C8E821 /* handsignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F878CF1C112DDD00C8E821 /* handsignUITests.m */; };
+		D5F878E21C112E0700C8E821 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F878DF1C112E0700C8E821 /* ACEDrawingTools.m */; };
+		D5F878E31C112E0700C8E821 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F878E11C112E0700C8E821 /* ACEDrawingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F878C11C112DDD00C8E821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F8789F1C112DDD00C8E821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F878A61C112DDD00C8E821;
+			remoteInfo = handsign;
+		};
+		D5F878CC1C112DDD00C8E821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F8789F1C112DDD00C8E821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F878A61C112DDD00C8E821;
+			remoteInfo = handsign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5F878A71C112DDD00C8E821 /* handsign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = handsign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F878AB1C112DDD00C8E821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F878AD1C112DDD00C8E821 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5F878AE1C112DDD00C8E821 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5F878B01C112DDD00C8E821 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5F878B11C112DDD00C8E821 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5F878B41C112DDD00C8E821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5F878B61C112DDD00C8E821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5F878B91C112DDD00C8E821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5F878BB1C112DDD00C8E821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F878C01C112DDD00C8E821 /* handsignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = handsignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F878C41C112DDD00C8E821 /* handsignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = handsignTests.m; sourceTree = "<group>"; };
+		D5F878C61C112DDD00C8E821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F878CB1C112DDD00C8E821 /* handsignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = handsignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F878CF1C112DDD00C8E821 /* handsignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = handsignUITests.m; sourceTree = "<group>"; };
+		D5F878D11C112DDD00C8E821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F878DE1C112E0700C8E821 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingTools.h; sourceTree = "<group>"; };
+		D5F878DF1C112E0700C8E821 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingTools.m; sourceTree = "<group>"; };
+		D5F878E01C112E0700C8E821 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingView.h; sourceTree = "<group>"; };
+		D5F878E11C112E0700C8E821 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F878A41C112DDD00C8E821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F878BD1C112DDD00C8E821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F878C81C112DDD00C8E821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5F8789E1C112DDD00C8E821 = {
+			isa = PBXGroup;
+			children = (
+				D5F878A91C112DDD00C8E821 /* handsign */,
+				D5F878C31C112DDD00C8E821 /* handsignTests */,
+				D5F878CE1C112DDD00C8E821 /* handsignUITests */,
+				D5F878A81C112DDD00C8E821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F878A81C112DDD00C8E821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F878A71C112DDD00C8E821 /* handsign.app */,
+				D5F878C01C112DDD00C8E821 /* handsignTests.xctest */,
+				D5F878CB1C112DDD00C8E821 /* handsignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F878A91C112DDD00C8E821 /* handsign */ = {
+			isa = PBXGroup;
+			children = (
+				D5F878DD1C112E0700C8E821 /* ACEDrawingView */,
+				D5F878AD1C112DDD00C8E821 /* AppDelegate.h */,
+				D5F878AE1C112DDD00C8E821 /* AppDelegate.m */,
+				D5F878B01C112DDD00C8E821 /* ViewController.h */,
+				D5F878B11C112DDD00C8E821 /* ViewController.m */,
+				D5F878B31C112DDD00C8E821 /* Main.storyboard */,
+				D5F878B61C112DDD00C8E821 /* Assets.xcassets */,
+				D5F878B81C112DDD00C8E821 /* LaunchScreen.storyboard */,
+				D5F878BB1C112DDD00C8E821 /* Info.plist */,
+				D5F878AA1C112DDD00C8E821 /* Supporting Files */,
+			);
+			path = handsign;
+			sourceTree = "<group>";
+		};
+		D5F878AA1C112DDD00C8E821 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5F878AB1C112DDD00C8E821 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5F878C31C112DDD00C8E821 /* handsignTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F878C41C112DDD00C8E821 /* handsignTests.m */,
+				D5F878C61C112DDD00C8E821 /* Info.plist */,
+			);
+			path = handsignTests;
+			sourceTree = "<group>";
+		};
+		D5F878CE1C112DDD00C8E821 /* handsignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F878CF1C112DDD00C8E821 /* handsignUITests.m */,
+				D5F878D11C112DDD00C8E821 /* Info.plist */,
+			);
+			path = handsignUITests;
+			sourceTree = "<group>";
+		};
+		D5F878DD1C112E0700C8E821 /* ACEDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				D5F878DE1C112E0700C8E821 /* ACEDrawingTools.h */,
+				D5F878DF1C112E0700C8E821 /* ACEDrawingTools.m */,
+				D5F878E01C112E0700C8E821 /* ACEDrawingView.h */,
+				D5F878E11C112E0700C8E821 /* ACEDrawingView.m */,
+			);
+			path = ACEDrawingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F878A61C112DDD00C8E821 /* handsign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F878D41C112DDD00C8E821 /* Build configuration list for PBXNativeTarget "handsign" */;
+			buildPhases = (
+				D5F878A31C112DDD00C8E821 /* Sources */,
+				D5F878A41C112DDD00C8E821 /* Frameworks */,
+				D5F878A51C112DDD00C8E821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = handsign;
+			productName = handsign;
+			productReference = D5F878A71C112DDD00C8E821 /* handsign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5F878BF1C112DDD00C8E821 /* handsignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F878D71C112DDD00C8E821 /* Build configuration list for PBXNativeTarget "handsignTests" */;
+			buildPhases = (
+				D5F878BC1C112DDD00C8E821 /* Sources */,
+				D5F878BD1C112DDD00C8E821 /* Frameworks */,
+				D5F878BE1C112DDD00C8E821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F878C21C112DDD00C8E821 /* PBXTargetDependency */,
+			);
+			name = handsignTests;
+			productName = handsignTests;
+			productReference = D5F878C01C112DDD00C8E821 /* handsignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5F878CA1C112DDD00C8E821 /* handsignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F878DA1C112DDD00C8E821 /* Build configuration list for PBXNativeTarget "handsignUITests" */;
+			buildPhases = (
+				D5F878C71C112DDD00C8E821 /* Sources */,
+				D5F878C81C112DDD00C8E821 /* Frameworks */,
+				D5F878C91C112DDD00C8E821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F878CD1C112DDD00C8E821 /* PBXTargetDependency */,
+			);
+			name = handsignUITests;
+			productName = handsignUITests;
+			productReference = D5F878CB1C112DDD00C8E821 /* handsignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F8789F1C112DDD00C8E821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kuailefu;
+				TargetAttributes = {
+					D5F878A61C112DDD00C8E821 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D5F878BF1C112DDD00C8E821 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D5F878A61C112DDD00C8E821;
+					};
+					D5F878CA1C112DDD00C8E821 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D5F878A61C112DDD00C8E821;
+					};
+				};
+			};
+			buildConfigurationList = D5F878A21C112DDD00C8E821 /* Build configuration list for PBXProject "handsign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F8789E1C112DDD00C8E821;
+			productRefGroup = D5F878A81C112DDD00C8E821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F878A61C112DDD00C8E821 /* handsign */,
+				D5F878BF1C112DDD00C8E821 /* handsignTests */,
+				D5F878CA1C112DDD00C8E821 /* handsignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F878A51C112DDD00C8E821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F878BA1C112DDD00C8E821 /* LaunchScreen.storyboard in Resources */,
+				D5F878B71C112DDD00C8E821 /* Assets.xcassets in Resources */,
+				D5F878B51C112DDD00C8E821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F878BE1C112DDD00C8E821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F878C91C112DDD00C8E821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F878A31C112DDD00C8E821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F878B21C112DDD00C8E821 /* ViewController.m in Sources */,
+				D5F878AF1C112DDD00C8E821 /* AppDelegate.m in Sources */,
+				D5F878E31C112E0700C8E821 /* ACEDrawingView.m in Sources */,
+				D5F878E21C112E0700C8E821 /* ACEDrawingTools.m in Sources */,
+				D5F878AC1C112DDD00C8E821 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F878BC1C112DDD00C8E821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F878C51C112DDD00C8E821 /* handsignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F878C71C112DDD00C8E821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F878D01C112DDD00C8E821 /* handsignUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5F878C21C112DDD00C8E821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F878A61C112DDD00C8E821 /* handsign */;
+			targetProxy = D5F878C11C112DDD00C8E821 /* PBXContainerItemProxy */;
+		};
+		D5F878CD1C112DDD00C8E821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F878A61C112DDD00C8E821 /* handsign */;
+			targetProxy = D5F878CC1C112DDD00C8E821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5F878B31C112DDD00C8E821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F878B41C112DDD00C8E821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5F878B81C112DDD00C8E821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F878B91C112DDD00C8E821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F878D21C112DDD00C8E821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5F878D31C112DDD00C8E821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F878D51C112DDD00C8E821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = handsign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.handsign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5F878D61C112DDD00C8E821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = handsign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.handsign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5F878D81C112DDD00C8E821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = handsignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.handsignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handsign.app/handsign";
+			};
+			name = Debug;
+		};
+		D5F878D91C112DDD00C8E821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = handsignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.handsignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/handsign.app/handsign";
+			};
+			name = Release;
+		};
+		D5F878DB1C112DDD00C8E821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = handsignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.handsignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = handsign;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D5F878DC1C112DDD00C8E821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = handsignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = map.handsignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = handsign;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F878A21C112DDD00C8E821 /* Build configuration list for PBXProject "handsign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F878D21C112DDD00C8E821 /* Debug */,
+				D5F878D31C112DDD00C8E821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F878D41C112DDD00C8E821 /* Build configuration list for PBXNativeTarget "handsign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F878D51C112DDD00C8E821 /* Debug */,
+				D5F878D61C112DDD00C8E821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5F878D71C112DDD00C8E821 /* Build configuration list for PBXNativeTarget "handsignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F878D81C112DDD00C8E821 /* Debug */,
+				D5F878D91C112DDD00C8E821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5F878DA1C112DDD00C8E821 /* Build configuration list for PBXNativeTarget "handsignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F878DB1C112DDD00C8E821 /* Debug */,
+				D5F878DC1C112DDD00C8E821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F8789F1C112DDD00C8E821 /* Project object */;
+}
